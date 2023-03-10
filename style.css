@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(95, 10, 121);
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    width: 100%;
+}
+.icon{
+    /* border: solid 5px white; */
+   margin-top: -10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+.icon p{
+    /* border: solid 5px white;
+   margin-top: -10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    */
+    margin-top: 40px;
+    max-width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 10%;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.container {
+    border: 1px solid #666666;
+    width: 350px;
+    height: 150px;
+    
+  }
+  
+  
+
+.form-box{
+    width: 49%;
+    max-width: 57%;
+    position: absolute;
+    top: 37%;
+    left: 26%;
+    /* transform: translate(-50%,50%); */
+    background: white;
+    padding: 100px 10px 35px;
+     text-align: left;
+     border-radius: 26px;
+     
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #503189;
+    position: relative;
+    text-align: center ;
+}
+.input-field{
+    background: #d3d0d0;
+    margin: 19px 0;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    
+}
+.textarea{
+    background: #c6c1c1;
+    /* margin: 19px 0; */
+    border-radius: 10px;
+    display: flex;
+    width: 100%;;
+    /* align-items: center; */
+    
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 14px;
+    
+}
+
+form p a{
+    text-decoration: none;
+    color: #332150;
+    
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 40%;
+    background: #ee8282;
+    color: #fff;
+    border-radius: 10px;
+    padding: 18px 10px ;
+    margin-right: 9%;
+    margin-left: 10px;
+    width: 70px;
+    /* align-items: center; */
+}
+/* .btn-field{
+    
+width: 800px  ;
+
+
+} */
+.btn{
+    text-align: center;
+    margin-right: -400px;
+    width: 100%;
+}
+@media screen and(max-width:1400px){
+    .form-box{
+      flex-direction: column;
+    }
+}
+
+
+@media screen and(max-width:1000px) {
+    .btn-field button{
+            width:100%;
+        }
+}
+@media screen and(min-width:1000px) {
+    .icon{
+            width:100%;
+        }
+}
+
+
